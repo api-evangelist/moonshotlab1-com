@@ -64,23 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Moonshot Lab is a demo vehicle inventory index designed for AI agents and assistants. It provides synthetic data on fictional vehicles, dealers, and pricing, accessible via a read‑only REST API and MCP streaming. The site offers search across hundreds of vehicles, detailed price breakdowns, and out‑the‑door estimates applying real tax rules, all for testing agent discovery and integration. This demo is not a real marketplace and contains no actual offers.
+Moonshot Lab provides a read‑only, agent‑only vehicle inventory index as a synthetic demo. It serves mock data for 863 fictional vehicles across 20 fictional dealers in eight US states. The API offers REST and MCP access for out‑the‑door price estimates, search, and saved‑search alerts, all without real offers or personal data. This demo is intended for AI agents to discover and use vehicle inventory data safely.
 
-**Areas:** vehicle inventory · AI agents · API · read‑only
+**Areas:** Vehicle · Demo · AI · Synthetic · Inventory
 
 ## Moonshot Lab on APIs.io
 
 Everything profiled for Moonshot Lab is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/moonshotlab1-com/](https://apis.io/providers/moonshotlab1-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (7)
+### APIs (1)
 
-- [Moonshot Lab API](https://apis.io/apis/moonshotlab1-com/moonshot-lab-api/) — Synthetic demo vehicle inventory API.
-- [Moonshot Lab Dealers API](https://apis.io/apis/moonshotlab1-com/moonshotlab1-com-dealers-api/) — The dealers API from Moonshot Lab — 7 operation(s) for dealers.
-- [Moonshot Lab Estimates API](https://apis.io/apis/moonshotlab1-com/moonshotlab1-com-estimates-api/) — The estimates API from Moonshot Lab — 6 operation(s) for estimates.
-- [Moonshot Lab Inventory API](https://apis.io/apis/moonshotlab1-com/moonshotlab1-com-inventory-api/) — The inventory API from Moonshot Lab — 6 operation(s) for inventory.
-- [Moonshot Lab Meta API](https://apis.io/apis/moonshotlab1-com/moonshotlab1-com-meta-api/) — The meta API from Moonshot Lab — 3 operation(s) for meta.
-- [Moonshot Lab Rules API](https://apis.io/apis/moonshotlab1-com/moonshotlab1-com-rules-api/) — The rules API from Moonshot Lab — 1 operation(s) for rules.
-- [Moonshot Lab saved searches API](https://apis.io/apis/moonshotlab1-com/moonshotlab1-com-saved-searches-api/) — The saved searches API from Moonshot Lab — 5 operation(s) for saved searches.
+- [Moonshot Lab Demo API](https://apis.io/apis/moonshotlab1-com/moonshot-lab-demo-api/) — Synthetic vehicle inventory demo API.
 
 ### Published properties
 
@@ -91,12 +85,6 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Which operations an agent can call, which act, and which need a human in the loop.
 
 - [Moonshot Lab Agentic Access](https://apis.io/agentic-access/moonshotlab1-com/moonshotlab1-com-agentic-access/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Moonshotlab1 Com Context](https://apis.io/jsonld/moonshotlab1-com/moonshotlab1-com-context/)
 
 #### Governance rules (1)
 
@@ -115,41 +103,35 @@ Authentication, trust centre, and vulnerability disclosure.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://moonshotlab1.com/)
-- [Documentation](https://moonshotlab1.com/llms.txt)
-- [Getting started](https://moonshotlab1.com/.well-known/moonshot-lab.json)
-- [API reference](https://moonshotlab1.com/openapi.json)
-- [Support](https://moonshotlab1.com/.well-known/api-catalog)
-- [Terms of service](https://moonshotlab1.com/.well-known/moonshot-lab.json)
-- [Privacy policy](https://moonshotlab1.com/.well-known/moonshot-lab.json)
 
 ## API Evangelist rating
 
-**Kin Score 41.1** — developing · rubric 0.28.0 · scored 2026-11-19
+**Kin Score 17.3** — emerging · rubric 0.28.0 · scored 2026-11-19
 
 | Facet | Score |
 |---|---|
-| Discoverability | 64.3 |
-| Contract quality | 48.3 |
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
 | Contract governance | 79.1 |
 | Operational transparency | 9.5 |
-| Developer ergonomics | 39.8 |
-| Access clarity | 17.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-**Agent readiness 34.7** — agent-ready
+**Agent readiness 12.5** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
+| Spec Presence | — |
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
-| Error Semantics | verified |
+| Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | — |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -159,10 +141,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | mostly (partial credit) |
+| Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/moonshotlab1-com/](https://apis.io/providers/moonshotlab1-com/).
 
